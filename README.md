@@ -31,7 +31,7 @@ Command syntax={cd  tabfoldername.v}
 ![image](https://user-images.githubusercontent.com/93427617/140312651-72ae04e6-e77f-44aa-b492-d731a33262aa.png)
 
 **STEP6**:Further,to check for the codes to be errorfree.use the shown command.
-By successful errorfree codes,a file gets generated as (a.out).
+By successful errorfree codes a file gets generated as (a.out).
 
 command syntax={iverilog tabverilogcodesubfoldername.v tabtestbenchsubfolder.v}
 
@@ -94,7 +94,10 @@ Finally,Successful generation of output or preview to the slide.
 
 **2.D FLIP FLOP (SEQUENTIAL CIRCUIT)**
 
-**steps to be followed same as previous a few steps differ.which we will see sequentially.**
+**steps to be followed same as previous a few steps differ.lets divide the procedure in 2 PARTS.**
+
+**PART1**
+=
 
 **STEP1**:Download the files using https://drive.google.com/drive/folders/1CQvbm9vSEIKuPZCqJT04rVpkR61yKr-a
 
@@ -107,13 +110,162 @@ From the downloaded files copy this files into a seprate file,by doing so our pr
 
 Click on the mark icon,Then make a new folder by naming it.Again beside the mark icon click on it, follow the same procedure to make new subfolders.
 
-**STEP4**:![image](https://user-images.githubusercontent.com/93427617/140597403-df40bc86-a66a-47fa-a2d9-029a62d47e4b.png)
+**STEP4**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/140597403-df40bc86-a66a-47fa-a2d9-029a62d47e4b.png)
 
 Write the verilog program in the blank feild.and save it by PRESSING CTRL+S
 
-**STEP5**![image](https://user-images.githubusercontent.com/93427617/140597452-d2853e0a-a427-4f13-af02-e670fa1cfc85.png)
+
+**STEP5**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/140597452-d2853e0a-a427-4f13-af02-e670fa1cfc85.png)
 
 write test bench for verilog program and save it 
+
+**STEP6**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141644129-9c275b8d-c717-4b6a-b4dd-73908eb4af0b.png)
+
+
+Enter the given shown command to have errorfree codes,which is most important to moveon.
+
+**STEP7**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141644481-e633c5cc-df7f-4178-9d4a-cb3082b6c169.png)
+
+Run Simulation . which gives out a new file  with the processingfoldername.vcd.
+
+**STEP8**
+
+
+Type command gtkwave"tab"filename.vcd 
+which produce..
+
+
+![image](https://user-images.githubusercontent.com/93427617/141644709-1a5a8655-9fa8-43ba-93a6-4aeb44347db4.png)
+
+**Now,we go to "denouement"**
+
+**PART2**
+=
+
+**STEP1**:
+
+![image](https://user-images.githubusercontent.com/93427617/141645006-2c2f8367-1eaa-4447-8439-63b91666c0fb.png)
+
+
+In terminal,type yosys to move in yosys tools.
+
+**STEP2**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141645123-01b87ae9-dd3f-40c5-885b-b595333c36ae.png)
+
+TO read liberty file enter :read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib
+
+**STEP3**:
+
+![image](https://user-images.githubusercontent.com/93427617/141645264-bad56e0d-5f7f-40f3-921e-8ff5c3d1f6e7.png)
+
+commmand for raeding module :read_verilog filename.v
+
+**STEP4**:
+
+![image](https://user-images.githubusercontent.com/93427617/141645429-18d53c23-3e5d-4bb2-a9fc-940ec291daf5.png)
+
+synthesis the work by the following command : synth -top modulename
+
+**STEP5**:
+
+![image](https://user-images.githubusercontent.com/93427617/141645532-90f5d448-9d28-45a7-8802-c385347621e5.png)
+
+For mapping Dflip-flops to library use following command : dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+
+**STEP6**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141645606-9f5c076a-428d-49bb-97de-7d4f77d332d8.png)
+
+For mapping logic to library file use following command : abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib
+
+**STEP7**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141645704-0591a078-8ce5-4aae-93ed-b0e4337c9bb5.png)
+
+type show in terminal to access show.dot.
+
+**STEP8**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141645843-28f9a07a-4722-47fb-9e36-5540721355f3.png)
+
+This the preview of graphviz.
+
+**STEP9**:
+
+![image](https://user-images.githubusercontent.com/93427617/141646093-7226ed6a-138b-465b-965a-e1b770dea466.png)
+
+now using following command  tee -o report.txt stat -liberty sky130_fd_sc_hd__tt_025C_1v80.lib extract report file.
+
+**STEP10**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141646154-f9c666e6-5ec4-4524-9abb-efc077bfc2b6.png)
+
+Use the following code shown in demonstration pic to get netlist.v file.
+
+**STEP11**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141646238-ffd98a8c-645a-431d-87d8-78b045cc29d9.png)
+
+Now in terminal type exit to move out from yosys tools.
+
+**STEP12**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141646467-87607511-f931-438f-a782-ba5075156e98.png)
+
+
+![image](https://user-images.githubusercontent.com/93427617/141646488-93ab833a-2697-460d-a257-a2b9bc22a90d.png)
+
+
+After successfull extraction of required files.
+we can check for information from each file report.txt file shows the statistical data of the design made and netlist.v file shows the all the detailed information which requred to make a intigrated Circuit. This is the file we give to foundry for making a physical copy.
+
+
+*SOON MORE WORK WILL BE SHARED ..*
+=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
