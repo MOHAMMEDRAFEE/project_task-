@@ -1,6 +1,11 @@
 # project_task-
 Hello,Welcome to my repository.My self Mohammed Rafeeq khan.pursuing my BE final year.
 For being tenacious towards my final year project .I started working out to know the tools,by a few basic programs.which are below following.
+Before we proceed do install:
+
+1.icarus verilog (for windows download link:https://bleyer.org/icarus/ ).
+
+2.vscode download link-https://code.visualstudio.com/download (also extentions i.Verilog-HDL/SystemVerilog/Bluespec SystemVerilog and ii.Graphviz Preview).
 
 **1.HALF ADDER (combinational circuit)**
 
