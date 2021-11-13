@@ -203,7 +203,8 @@ type show in terminal to access show.dot.
 **STEP8**:
 
 
-![image](https://user-images.githubusercontent.com/93427617/141645843-28f9a07a-4722-47fb-9e36-5540721355f3.png)
+![image](https://user-images.githubusercontent.com/93427617/141651965-b44748a1-4262-4804-966a-494098c961a4.png)
+
 
 This the preview of graphviz.
 
@@ -238,6 +239,13 @@ Now in terminal type exit to move out from yosys tools.
 
 After successfull extraction of required files.
 we can check for information from each file report.txt file shows the statistical data of the design made and netlist.v file shows the all the detailed information which requred to make a intigrated Circuit. This is the file we give to foundry for making a physical copy.
+
+**STEP13**:
+
+
+![image](https://user-images.githubusercontent.com/93427617/141651822-54d725ec-31d4-4a7c-acab-6c8c181daca9.png)
+
+By shown command ensure to be error free.
 
 
 *SOON MORE WORK WILL BE SHARED ..*
