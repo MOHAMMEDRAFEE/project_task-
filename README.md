@@ -219,7 +219,8 @@ type show in terminal to access show.dot.
 **STEP8**:
 
 
-![image](https://user-images.githubusercontent.com/93427617/141651965-b44748a1-4262-4804-966a-494098c961a4.png)
+![image](https://user-images.githubusercontent.com/93427617/141677491-05d06f65-9ddd-43cf-a09d-00c647a25cad.png)
+
 
 
 This the preview of graphviz.
