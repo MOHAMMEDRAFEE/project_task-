@@ -61,6 +61,9 @@ A new file will genterated with the processingfoldername.vcd.
 **STEP8**: Now,to generate the waveform Enter the command (gtkwave tabprocessingfoldername.vcd).
 
 
+Analyse,the result using waveform.
+
+
 ![image](https://user-images.githubusercontent.com/93427617/140317143-b1d5e471-a02f-4765-8192-5c75d662bc4f.png)
 
 **STEP9**:Attach the cmos (program) lib file or liberty file in the proccessing folder.
