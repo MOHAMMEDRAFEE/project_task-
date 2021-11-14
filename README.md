@@ -5,6 +5,11 @@ Before we proceed do install:
 
 1.icarus verilog (for windows download link:https://bleyer.org/icarus/ ).
 
+
+Icarus Verilog is a free compiler implementation for the IEEE-1364 Verilog hardware description language. Icarus is maintained by Stephen Williams and it is released under the GNU GPL license.
+
+In this page you will find easy to install Icarus Verilog packages compiled with the MinGW toolchain for the Windows environment. GTKWave for Win32 is also included in the latest releases. The installers have been created with Jordan Rusell's Inno Setup free installer utility.
+
 2.vscode download link-https://code.visualstudio.com/download (also extentions i.Verilog-HDL/SystemVerilog/Bluespec SystemVerilog and ii.Graphviz Preview).
 
 **1.HALF ADDER (combinational circuit)**
