@@ -12,6 +12,9 @@ In this page you will find easy to install Icarus Verilog packages compiled with
 
 2.vscode download link-https://code.visualstudio.com/download (also extentions i.Verilog-HDL/SystemVerilog/Bluespec SystemVerilog and ii.Graphviz Preview).
 
+
+Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
+
 **1.HALF ADDER (combinational circuit)**
 
 Steps to be followed to execute the above program.
