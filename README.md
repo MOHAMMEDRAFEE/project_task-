@@ -56,7 +56,8 @@ command syntax={vvp taba}
 
 A new file will genterated with the processingfoldername.vcd.
 
-![image](https://user-images.githubusercontent.com/93427617/140318217-32c116f2-6bdb-4666-83ad-08909bf428ed.png)
+
+![image](https://user-images.githubusercontent.com/93427617/141677602-8915961b-b495-486e-a42d-ff496c819a55.png)
 
 **STEP8**: Now,to generate the waveform Enter the command (gtkwave tabprocessingfoldername.vcd).
 
@@ -64,7 +65,7 @@ A new file will genterated with the processingfoldername.vcd.
 Analyse,the result using waveform.
 
 
-![image](https://user-images.githubusercontent.com/93427617/141677602-8915961b-b495-486e-a42d-ff496c819a55.png)
+![image](https://user-images.githubusercontent.com/93427617/141677722-ea731862-5e9a-4fc5-bf1c-aa91fe7f3fe8.png)
 
 
 **STEP9**:Attach the cmos (program) lib file or liberty file in the proccessing folder.
