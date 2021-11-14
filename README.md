@@ -64,7 +64,8 @@ A new file will genterated with the processingfoldername.vcd.
 Analyse,the result using waveform.
 
 
-![image](https://user-images.githubusercontent.com/93427617/140317143-b1d5e471-a02f-4765-8192-5c75d662bc4f.png)
+![image](https://user-images.githubusercontent.com/93427617/141677602-8915961b-b495-486e-a42d-ff496c819a55.png)
+
 
 **STEP9**:Attach the cmos (program) lib file or liberty file in the proccessing folder.
 
@@ -163,7 +164,8 @@ Type command gtkwave"tab"filename.vcd
 which produce..
 
 
-![image](https://user-images.githubusercontent.com/93427617/141644709-1a5a8655-9fa8-43ba-93a6-4aeb44347db4.png)
+![image](https://user-images.githubusercontent.com/93427617/141677663-ccdbbea7-5c72-478c-9d6b-f4cfbab869d6.png)
+
 
 **Now,we go to "denouement"**
 
